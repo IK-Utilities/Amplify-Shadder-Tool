@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/AmplifyShaderEditor/Examples/Built-In/Burn/Burn.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
