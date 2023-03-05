@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AmplifyShaderEditor/Examples/Built-In/Burn/Burn.unity
+- path: Assets/My_Sample_Shaders/Teleport_Shader/Teleport_Smaple_Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

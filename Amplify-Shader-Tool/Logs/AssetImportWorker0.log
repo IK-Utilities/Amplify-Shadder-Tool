@@ -15,11 +15,11 @@ G:/ImtiazAli_Projects/GitHub_Projects/Amplify-Shadder-Tool/Amplify-Shader-Tool
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51265
+50249
 Successfully changed project path to: G:/ImtiazAli_Projects/GitHub_Projects/Amplify-Shadder-Tool/Amplify-Shader-Tool
 G:/ImtiazAli_Projects/GitHub_Projects/Amplify-Shadder-Tool/Amplify-Shader-Tool
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -36,124 +36,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003220 seconds.
+Registered in 0.003433 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 84.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
+- Completed reload, in  0.970 seconds
 Domain Reload Profiling:
-	ReloadAssembly (971ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (738ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (259ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003560 seconds.
+Registered in 0.003327 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\ImtiazAli_Projects\GitHub_Projects\Amplify-Shadder-Tool\Amplify-Shader-Tool\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.822 seconds
+- Completed reload, in  1.671 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1823ms)
-		BeginReloadAssembly (242ms)
+	ReloadAssembly (1673ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1484ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1324ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (591ms)
+			SetupTypeCache (456ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (312ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (319ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2284 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.8 MB.
-System memory in use after: 181.0 MB.
+System memory in use before: 183.2 MB.
+System memory in use after: 183.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2730.
-Total: 4.685700 ms (FindLiveObjects: 0.386600 ms CreateObjectMapping: 0.202400 ms MarkObjects: 3.935100 ms  DeleteObjects: 0.159400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In Samples.unitypackage
-  artifactKey: Guid(e00e6f90ab8233e46a41c5e33917c642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In Samples.unitypackage using Guid(e00e6f90ab8233e46a41c5e33917c642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b57433c75e4e0988f5060c1032f26c') in 0.059556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.949059 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Sample Resources.unitypackage
-  artifactKey: Guid(c0a0a980c9ba86345bc15411db88d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Sample Resources.unitypackage using Guid(c0a0a980c9ba86345bc15411db88d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4bf74ca051a22b962924295cb3d54d') in 0.010261 seconds 
-========================================================================
-Received Prepare
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 3.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2732.
-Total: 4.632800 ms (FindLiveObjects: 0.304700 ms CreateObjectMapping: 0.144100 ms MarkObjects: 4.162600 ms  DeleteObjects: 0.020100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 5.973700 ms (FindLiveObjects: 0.853200 ms CreateObjectMapping: 0.980200 ms MarkObjects: 4.011200 ms  DeleteObjects: 0.127500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -167,90 +134,269 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.717289 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/AnimatedFire/AnimatedFire.unity
-  artifactKey: Guid(12ec3118b95675b4c8495b896a147ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/AnimatedFire/AnimatedFire.unity using Guid(12ec3118b95675b4c8495b896a147ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ad6cfd477ac239befef4201b9ec490') in 0.009399 seconds 
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.014919 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.311242 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodDiffuse.tif
-  artifactKey: Guid(7130c16fd8005b546b111d341310a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodDiffuse.tif using Guid(7130c16fd8005b546b111d341310a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8f50cd52344c1bfd10c504cc10fd04') in 0.118573 seconds 
+  Time since last request: 10.056296 seconds.
+  path: Assets/My_Sample_Shaders
+  artifactKey: Guid(e34d03beb640b97498164713a2ff5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Sample_Shaders using Guid(e34d03beb640b97498164713a2ff5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14eff3f31ca0ef6eaae03283178a6538') in 0.010879 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodNormal.tif
-  artifactKey: Guid(11f03d9db1a617e40b7ece71f0a84f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodNormal.tif using Guid(11f03d9db1a617e40b7ece71f0a84f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f7c66690aa2b2590639b3ce909523') in 0.032685 seconds 
+  Time since last request: 14.906694 seconds.
+  path: Assets/My_Sample_Shaders/Teleport_Shader
+  artifactKey: Guid(ea0a4b9c2bd525240a771c0175ba0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Sample_Shaders/Teleport_Shader using Guid(ea0a4b9c2bd525240a771c0175ba0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839372ef8af9c129d99232b83504013f') in 0.011140 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodSpecular.tif
-  artifactKey: Guid(6618005f6bafebf40b3d09f498401fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodSpecular.tif using Guid(6618005f6bafebf40b3d09f498401fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b53127c3b6e535d89e320beeec446bb') in 0.022936 seconds 
+  Time since last request: 28.319488 seconds.
+  path: Assets/My_Sample_Shaders/Teleport_Shader/Teleport.shader
+  artifactKey: Guid(71eb12f38f8893a4f9d57cb255a20930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Sample_Shaders/Teleport_Shader/Teleport.shader using Guid(71eb12f38f8893a4f9d57cb255a20930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70f01eb6e4bf947079c21c8f078154e') in 0.065258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/emiss_2.jpg
-  artifactKey: Guid(36be8d528a4fa024faa4680d7658642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/emiss_2.jpg using Guid(36be8d528a4fa024faa4680d7658642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70651c1209082e8cd7ab4f3b13c293b9') in 0.027713 seconds 
+  Time since last request: 118.435198 seconds.
+  path: Assets/My_Sample_Shaders/Teleport_Shader/Teleport_Smaple_Scene.unity
+  artifactKey: Guid(e12cc288ba181cc4986bdb3b1bf0bfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Sample_Shaders/Teleport_Shader/Teleport_Smaple_Scene.unity using Guid(e12cc288ba181cc4986bdb3b1bf0bfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4f5335a89896bd95e97cc37dde78e7') in 0.008676 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TileableFire.jpg
-  artifactKey: Guid(f7e96904e8667e1439548f0f86389447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TileableFire.jpg using Guid(f7e96904e8667e1439548f0f86389447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d1d37b876287226d1028cc613dd452') in 0.025867 seconds 
+  Time since last request: 12.537224 seconds.
+  path: Assets/My_Sample_Shaders/Teleport_Shader/Materials
+  artifactKey: Guid(ad358e6748652344583d93e970e614cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Sample_Shaders/Teleport_Shader/Materials using Guid(ad358e6748652344583d93e970e614cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613e8083773e5149a61850eaf7f80e7') in 0.010065 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 184.266484 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Community EnvironmentGradient/EnvironmentGradient.unity
-  artifactKey: Guid(f75115328aa101c4f9a30c73358e2790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Community EnvironmentGradient/EnvironmentGradient.unity using Guid(f75115328aa101c4f9a30c73358e2790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b49d143b752b31de938af56fe33737') in 0.008564 seconds 
+  Time since last request: 45.839941 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/WallPanel.fbx
+  artifactKey: Guid(e91f7b19526c40b45bf90cfa60742b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/WallPanel.fbx using Guid(e91f7b19526c40b45bf90cfa60742b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513536a7c5610f4444121e51c666dd6a') in 0.406775 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.864487 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/XRay/XRay.unity
-  artifactKey: Guid(339e16fb73b61d54a8381aad714f8947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/XRay/XRay.unity using Guid(339e16fb73b61d54a8381aad714f8947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31d2d2419ec4a041a4d52cdd06822f5') in 0.011369 seconds 
+  Time since last request: 0.771422 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/tv.fbx
+  artifactKey: Guid(8d527972531170946be955405068d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/tv.fbx using Guid(8d527972531170946be955405068d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d3d36ebd067a904de5a77e2f7486be') in 0.049449 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.641882 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BaseColor.tga
-  artifactKey: Guid(e70a4cc9a27a530468623a76c6c025fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BaseColor.tga using Guid(e70a4cc9a27a530468623a76c6c025fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186b6714453a3aeac87b40ce88baf457') in 0.043505 seconds 
+  Time since last request: 0.249397 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx
+  artifactKey: Guid(06443348a292aa844b4ea488a15665dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx using Guid(06443348a292aa844b4ea488a15665dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871cc591097ee4679c24821e85bb32ac') in 0.031693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.233771 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx
+  artifactKey: Guid(4cd54f9fc75143d488de04041baa9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx using Guid(4cd54f9fc75143d488de04041baa9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26244a821043d4db5310f7c77d24496d') in 0.151981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101092 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX
+  artifactKey: Guid(2d99c4ba773b74442b65d2e9cb72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX using Guid(2d99c4ba773b74442b65d2e9cb72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b22bf9a4cfd0f6f328e5709bd8f7cc') in 0.036986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173526 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx
+  artifactKey: Guid(0eb2fd97e4b2bc14cbebcba12e219ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx using Guid(0eb2fd97e4b2bc14cbebcba12e219ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7771cfbcde14c08306b457b75d8d5621') in 0.031522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377891 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx
+  artifactKey: Guid(8ebc8f13d4ece2249af29d95b7985203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx using Guid(8ebc8f13d4ece2249af29d95b7985203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f02c4320c42f0a603e6cb873dd674') in 0.026140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.445312 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx
+  artifactKey: Guid(d58da073ec467bc4bbb5bc2827811ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx using Guid(d58da073ec467bc4bbb5bc2827811ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131a95f2714cd7ac3b471f24de6f32d1') in 0.025043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.354792 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials
+  artifactKey: Guid(6fcbe8b33ea8cfc4c97e5863c65eca05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials using Guid(6fcbe8b33ea8cfc4c97e5863c65eca05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4090c5493c7dae4a85cd6168db3d0333') in 0.003475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.554553 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models
+  artifactKey: Guid(003011b321b5e9b4b904640d5dd2093c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models using Guid(003011b321b5e9b4b904640d5dd2093c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e7e6c7d5a0f0a2575f9e05ca167c27') in 0.009797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 351.288429 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Prefabs
+  artifactKey: Guid(aebf4bd4b3c2a1143bbc9029b609d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Prefabs using Guid(aebf4bd4b3c2a1143bbc9029b609d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c268f48cb308694b5c060f570f948137') in 0.011116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.299949 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v1.jpg
+  artifactKey: Guid(7b120c3c3229f1245b47281ba7c9b80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v1.jpg using Guid(7b120c3c3229f1245b47281ba7c9b80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eace13d8c990c1dd8a034bba02b65f46') in 0.073211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497937 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v2.jpg
+  artifactKey: Guid(68238187342e117439ce4507180c5a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v2.jpg using Guid(68238187342e117439ce4507180c5a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baa203e44e1bfb30dde074468e0cc1f') in 0.018504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.257536 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/RoundedCube.prefab
+  artifactKey: Guid(31f5e9d06be14964dabd5e424638c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/RoundedCube.prefab using Guid(31f5e9d06be14964dabd5e424638c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284cd8467270c9b19d1bc16938048d09') in 0.041109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.407459 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/SceneElements.prefab
+  artifactKey: Guid(82af4827fee368e4c83d72a25f533a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/SceneElements.prefab using Guid(82af4827fee368e4c83d72a25f533a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba21d219918d90a7911e6657e140364') in 0.032903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.424522 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/ShaderBall.prefab
+  artifactKey: Guid(5fb901ed376616a4d800b32547cef664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/ShaderBall.prefab using Guid(5fb901ed376616a4d800b32547cef664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87c2d03abbd3ca197d5dc63d90ebe4e') in 0.034551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.274115 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/Ambient-Occlusion/GrassBlades.prefab
+  artifactKey: Guid(b3bbb327e2aaff045b1dcd09d5b9f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/Ambient-Occlusion/GrassBlades.prefab using Guid(b3bbb327e2aaff045b1dcd09d5b9f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ffd6f933b9aeb42c4ad327e010a04d') in 0.497419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.429349 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalNormal.tif
+  artifactKey: Guid(bd734c29baceb63499732f24fbaea45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalNormal.tif using Guid(bd734c29baceb63499732f24fbaea45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c9194dfe20cd682195e516c7a9ab75') in 0.027474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.903572 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalSpecular.tif
+  artifactKey: Guid(bea7fa376f932ba419f3d1fc95bd1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalSpecular.tif using Guid(bea7fa376f932ba419f3d1fc95bd1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36afe9613b303783bcde14372f992ae') in 0.021152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194761 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorDiffuse.tif
+  artifactKey: Guid(a9f953c7353804247b8c3ed6e1c46a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorDiffuse.tif using Guid(a9f953c7353804247b8c3ed6e1c46a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbf72d0e6b5bfe964410b11731d13e8') in 0.021514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180867 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorSpecularGloss.tif
+  artifactKey: Guid(f6df8509372384f48bb3fa1a762ba9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorSpecularGloss.tif using Guid(f6df8509372384f48bb3fa1a762ba9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55aff753e5c6072aeca07ab60cd881e1') in 0.014658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192790 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasDiffuse.tif
+  artifactKey: Guid(d3a780a450cf8584793c374ad13bcaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasDiffuse.tif using Guid(d3a780a450cf8584793c374ad13bcaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0805f43e93eea9c6e1fc4cd4a134d16c') in 0.017875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187469 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasNormal.tif
+  artifactKey: Guid(8178c5ce4aa3d5341804ce7d0ff18428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasNormal.tif using Guid(8178c5ce4aa3d5341804ce7d0ff18428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7439142f5cb39b3e17d2132f66662611') in 0.026100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193543 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasSpecular.tif
+  artifactKey: Guid(4855cd84f5ba0c344b80c8009ce51491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasSpecular.tif using Guid(4855cd84f5ba0c344b80c8009ce51491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e426f11bd96edf9183fb02ab9598ae09') in 0.015804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437082 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/MudNormal.tif
+  artifactKey: Guid(10ff51d2d87fb7b46b70b55f8551c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/MudNormal.tif using Guid(10ff51d2d87fb7b46b70b55f8551c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f3b9256cec1219d60aa69c987c4796') in 0.016895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.357884 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberNormal.tif
+  artifactKey: Guid(066f29fd0fc3d0341b96857dcf2cede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberNormal.tif using Guid(066f29fd0fc3d0341b96857dcf2cede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17839fa636a57b32e4c012ad1bfbf6') in 0.027494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190582 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberSpecular.tif
+  artifactKey: Guid(0688235f1fee46b4581bcc1cf189cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberSpecular.tif using Guid(0688235f1fee46b4581bcc1cf189cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f96d11d7fb393b068f386f28648d0f') in 0.016667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234958 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinDiffuse.tif
+  artifactKey: Guid(ca1a5e504324857499d1fdeb25489439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinDiffuse.tif using Guid(ca1a5e504324857499d1fdeb25489439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d80b161d7f63abfeae811e34c844a5d') in 0.015369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229586 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinNormal.tif
+  artifactKey: Guid(233518d21026a2e4397650a59649e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinNormal.tif using Guid(233518d21026a2e4397650a59649e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb99ddcca086e127de27c7f430c438b') in 0.019790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248873 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinOcclusion.tif
+  artifactKey: Guid(a133a690c4b9f014cbc6179a83191248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinOcclusion.tif using Guid(a133a690c4b9f014cbc6179a83191248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2a048cd59de62d8f4b93a05fbdb31e') in 0.029603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.237912 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpDiffuse.tif
+  artifactKey: Guid(f07faad00a1271a4aaf838178232cf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpDiffuse.tif using Guid(f07faad00a1271a4aaf838178232cf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97c20ba8b246fc252141eca9b4366e6') in 0.017725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.264435 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpHeight.tif
+  artifactKey: Guid(6e6cba53deb4f4e41a81667b73a1ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpHeight.tif using Guid(6e6cba53deb4f4e41a81667b73a1ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6a771aec2050eb4366f75a31175a8c') in 0.016779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.254984 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpNormal.tif
+  artifactKey: Guid(5b653e484c8e303439ef414b62f969f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpNormal.tif using Guid(5b653e484c8e303439ef414b62f969f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f6d84e152723478783735add4c69f2') in 0.016832 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004348 seconds.
+Registered in 0.004275 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\ImtiazAli_Projects\GitHub_Projects\Amplify-Shadder-Tool\Amplify-Shader-Tool\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.940 seconds
+- Completed reload, in  1.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1940ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (1862ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1563ms)
-			LoadAssemblies (214ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1536ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (529ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (547ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (534ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (354ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (350ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (1ms)
@@ -258,14 +404,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.7 MB.
-System memory in use after: 153.9 MB.
+Unloading 1977 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2739.
-Total: 4.477800 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.143900 ms MarkObjects: 4.013800 ms  DeleteObjects: 0.031700 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2750.
+Total: 5.354900 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.152000 ms MarkObjects: 4.336900 ms  DeleteObjects: 0.567700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -279,374 +425,119 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.539075 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/XRay/XRay.shader
-  artifactKey: Guid(24923b68e09c86742adca3a59b1000c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/XRay/XRay.shader using Guid(24923b68e09c86742adca3a59b1000c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561adfe8eea9b035a00a916d4e3eb3ea') in 0.051767 seconds 
+  Time since last request: 1577.127082 seconds.
+  path: Assets/Karl_Character.fbx
+  artifactKey: Guid(f63b7ac41331ccd47942b0a83d7cf1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karl_Character.fbx using Guid(f63b7ac41331ccd47942b0a83d7cf1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e8726ad0f16a0ac183582f06c03958') in 0.396626 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.813113 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/WorldPosSLices/WorldPosSlices.unity
-  artifactKey: Guid(0ff1d42cdcab64949a826c154ae1700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/WorldPosSLices/WorldPosSlices.unity using Guid(0ff1d42cdcab64949a826c154ae1700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ec8ff4c0f28963b9663c5872c3b13b') in 0.010481 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004466 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ImtiazAli_Projects\GitHub_Projects\Amplify-Shadder-Tool\Amplify-Shader-Tool\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.706 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1707ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1403ms)
-			LoadAssemblies (168ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (536ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (462ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.7 MB.
-System memory in use after: 153.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2742.
-Total: 4.278400 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.197400 ms MarkObjects: 3.774800 ms  DeleteObjects: 0.027100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 6.540887 seconds.
+  path: Assets/Ch09_nonPBR@Idle.fbx
+  artifactKey: Guid(ce5b48e86a8bda44a94dcee7c044955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch09_nonPBR@Idle.fbx using Guid(ce5b48e86a8bda44a94dcee7c044955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddb1dbfb4890d95fb7a07adc3c71df7') in 0.019355 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.157577 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Water/WaterSample.unity
-  artifactKey: Guid(1f8c35a340e197140a469175573aa484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Water/WaterSample.unity using Guid(1f8c35a340e197140a469175573aa484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3019da1b77fe1a03fae592d0f09faea1') in 0.016061 seconds 
+  Time since last request: 16.517172 seconds.
+  path: Assets/Ch09_nonPBR@Idle.fbx
+  artifactKey: Guid(ce5b48e86a8bda44a94dcee7c044955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch09_nonPBR@Idle.fbx using Guid(ce5b48e86a8bda44a94dcee7c044955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e78d4d09284184b99322e397796896') in 0.013519 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.904520 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Community EnvironmentGradient/TerrainNormal.png
-  artifactKey: Guid(c2337c830b1ab1a4f85c7c082a427cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Community EnvironmentGradient/TerrainNormal.png using Guid(c2337c830b1ab1a4f85c7c082a427cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd393e8ec2b2e0247ece84efb5e3caad2') in 0.091389 seconds 
+  Time since last request: 62.564517 seconds.
+  path: Assets/My_Sample_Shaders/AnimeGirls
+  artifactKey: Guid(fd8ca17b53e7b1643b105c8ead72a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Sample_Shaders/AnimeGirls using Guid(fd8ca17b53e7b1643b105c8ead72a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0ba4d0e95dd07838d7a2140703c1ec') in 0.018786 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Community EnvironmentGradient/Terrain_R_AO_G_Edges.tga
-  artifactKey: Guid(ef0a2cb0ac92c784dbc9a947e8fcb754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Community EnvironmentGradient/Terrain_R_AO_G_Edges.tga using Guid(ef0a2cb0ac92c784dbc9a947e8fcb754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4e4160a030a5f42c4e4d6cdf125bd6') in 0.020930 seconds 
+  Time since last request: 9.516237 seconds.
+  path: Assets/My_Experiments
+  artifactKey: Guid(e34d03beb640b97498164713a2ff5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments using Guid(e34d03beb640b97498164713a2ff5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32862f7d889b58daa1bd8e3222ba7382') in 0.022683 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.710452 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/VertexNormalReconstruction/VertexNormalReconstruction.unity
-  artifactKey: Guid(0f17b7ece2afcc34a8757a9f22e9a432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/VertexNormalReconstruction/VertexNormalReconstruction.unity using Guid(0f17b7ece2afcc34a8757a9f22e9a432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0340261bfd1ea482724f87e3ac7c6b10') in 0.009713 seconds 
+  Time since last request: 6.793921 seconds.
+  path: Assets/My_Experiments/Assets
+  artifactKey: Guid(c6e34a8555e89954f99ff34b7f81bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets using Guid(c6e34a8555e89954f99ff34b7f81bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43024d9380d28f90795f53ec3283859') in 0.003620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.334163 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/VertexNormalReconstruction
-  artifactKey: Guid(2a62c40d60e696441adf71dec0d1ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/VertexNormalReconstruction using Guid(2a62c40d60e696441adf71dec0d1ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b530069270709f32cfcf49bb07e6697') in 0.009517 seconds 
+  Time since last request: 8.768172 seconds.
+  path: Assets/My_Experiments/Assets/AnimeGirls/BaseCharacter/Underwear1.prefab
+  artifactKey: Guid(1733e098fdf8a9447bda920a3e41b14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/AnimeGirls/BaseCharacter/Underwear1.prefab using Guid(1733e098fdf8a9447bda920a3e41b14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1936a397af42cfa9b83805f05a4da04b') in 0.716890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.479077 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/UVLightReveal/UVLightReveal.unity
-  artifactKey: Guid(50c64b7d137b2854d8c1ab978919412d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/UVLightReveal/UVLightReveal.unity using Guid(50c64b7d137b2854d8c1ab978919412d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a815573f46527572cb5a8785120067') in 0.008931 seconds 
+  Time since last request: 6.172398 seconds.
+  path: Assets/My_Experiments/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles
+  artifactKey: Guid(3ee06154672a6f945b79158f4e51f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles using Guid(3ee06154672a6f945b79158f4e51f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad289db38fd9146a51e7a4d5f88567c') in 0.011558 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.587820 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/UnlitWithLightmap/UnlitWithLightmap.unity
-  artifactKey: Guid(ef7acd50ba2c85742a6275ab705b3268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/UnlitWithLightmap/UnlitWithLightmap.unity using Guid(ef7acd50ba2c85742a6275ab705b3268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09becd7e6a87d8f54a7b56990ca11e1') in 0.009438 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003618 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ImtiazAli_Projects\GitHub_Projects\Amplify-Shadder-Tool\Amplify-Shader-Tool\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.804 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1806ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1515ms)
-			LoadAssemblies (177ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (586ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (513ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (352ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.7 MB.
-System memory in use after: 154.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2746.
-Total: 4.131700 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.147200 ms MarkObjects: 3.688000 ms  DeleteObjects: 0.026400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 1.852719 seconds.
+  path: Assets/My_Experiments/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx
+  artifactKey: Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx using Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732476508fa54e0585b34cbf6abafc57') in 0.255644 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.787780 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/UISpriteFX/UISpriteFX.unity
-  artifactKey: Guid(b4e3ebb78bba8fb45a5f5f61ee41b222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/UISpriteFX/UISpriteFX.unity using Guid(b4e3ebb78bba8fb45a5f5f61ee41b222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cc4c20379029fc3510877d9ba59c4e') in 0.015637 seconds 
+  Time since last request: 6.797654 seconds.
+  path: Assets/My_Experiments/Assets/AnimeGirls/Casual2/Casual2.prefab
+  artifactKey: Guid(93d1a5d897a032341bfc4c53534ab336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/AnimeGirls/Casual2/Casual2.prefab using Guid(93d1a5d897a032341bfc4c53534ab336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0989b4483011cd146933240e967fbb') in 0.077015 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.559051 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TwoSidedWithFace/TwoSideWithFace.unity
-  artifactKey: Guid(7f4b24055cd13e54e81bf8c8df034826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TwoSidedWithFace/TwoSideWithFace.unity using Guid(7f4b24055cd13e54e81bf8c8df034826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2004f744abc3142ee9331b06f09645a') in 0.009731 seconds 
+  Time since last request: 122.138011 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbx
+  artifactKey: Guid(4de3ce4fc052e884e857c5db075bf89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbx using Guid(4de3ce4fc052e884e857c5db075bf89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b8eb78766a9d7578e5d567818de616') in 0.052571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.622402 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TriplanarProjection/TriplanarProjection.unity
-  artifactKey: Guid(11c2e6be7230cbf4ba09c2d0d10fc3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TriplanarProjection/TriplanarProjection.unity using Guid(11c2e6be7230cbf4ba09c2d0d10fc3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefae6bdfd16922cf96b751d4f3efa28') in 0.012845 seconds 
+  Time since last request: 10.697114 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbx
+  artifactKey: Guid(4de3ce4fc052e884e857c5db075bf89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbx using Guid(4de3ce4fc052e884e857c5db075bf89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4abf5f0ece5f009b1cc4a306be7b7a') in 0.095471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.485405 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Transparency/Transparency.unity
-  artifactKey: Guid(9ae29412b792f0c40a9908053222d581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Transparency/Transparency.unity using Guid(9ae29412b792f0c40a9908053222d581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f979482a3d3e3e3ff6005de9ad710516') in 0.010596 seconds 
+  Time since last request: 7.994105 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Diffuse.png
+  artifactKey: Guid(d26d12e3f7bab1f4c9920eb4de6e5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Diffuse.png using Guid(d26d12e3f7bab1f4c9920eb4de6e5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028032 seconds  code(4) message(Build asset version error: assets/my_experiments/assets/karl_character.fbm/ch09_1001_diffuse.png in SourceAssetDB has modification time of '2023-03-05T05:32:52.6388738Z' while content on disk has modification time of '2023-03-05T05:32:59.094823Z')
+  ERROR: Build asset version error: assets/my_experiments/assets/karl_character.fbm/ch09_1001_diffuse.png in SourceAssetDB has modification time of '2023-03-05T05:32:52.6388738Z' while content on disk has modification time of '2023-03-05T05:32:59.094823Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 4.104410 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Transmission/Transmission.unity
-  artifactKey: Guid(49075e26805268d449c9671eaadfc89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Transmission/Transmission.unity using Guid(49075e26805268d449c9671eaadfc89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6bc5218c2abac391b94b28a3ff6de') in 0.009169 seconds 
+  Time since last request: 0.610481 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Glossiness.png
+  artifactKey: Guid(2673b4dd41304ce44af308312f9f29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Glossiness.png using Guid(2673b4dd41304ce44af308312f9f29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017358 seconds  code(4) message(Build asset version error: assets/my_experiments/assets/karl_character.fbm/ch09_1001_glossiness.png in SourceAssetDB has modification time of '2023-03-05T05:32:52.6468741Z' while content on disk has modification time of '2023-03-05T05:32:59.1058231Z')
+  ERROR: Build asset version error: assets/my_experiments/assets/karl_character.fbm/ch09_1001_glossiness.png in SourceAssetDB has modification time of '2023-03-05T05:32:52.6468741Z' while content on disk has modification time of '2023-03-05T05:32:59.1058231Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 3.673506 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Translucency/Translucency.unity
-  artifactKey: Guid(a9cfac15d26a55d4ca6335028a9ffa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Translucency/Translucency.unity using Guid(a9cfac15d26a55d4ca6335028a9ffa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be5fc922548f0f4bb4b0191e479ac34') in 0.009849 seconds 
+  Time since last request: 1.084763 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Normal.png
+  artifactKey: Guid(64a513eec167f1c49883975b7947523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Normal.png using Guid(64a513eec167f1c49883975b7947523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010087 seconds  code(4) message(Build asset version error: assets/my_experiments/assets/karl_character.fbm/ch09_1001_normal.png in SourceAssetDB has modification time of '2023-03-05T05:32:52.6768725Z' while content on disk has modification time of '2023-03-05T05:32:59.1418229Z')
+  ERROR: Build asset version error: assets/my_experiments/assets/karl_character.fbm/ch09_1001_normal.png in SourceAssetDB has modification time of '2023-03-05T05:32:52.6768725Z' while content on disk has modification time of '2023-03-05T05:32:59.1418229Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 14.076951 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray/TextureArray.unity
-  artifactKey: Guid(f3b86c4d7c69f2a4cb341ac7906750cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray/TextureArray.unity using Guid(f3b86c4d7c69f2a4cb341ac7906750cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafd6f7eff51f5b72270a9dc63fed0e3') in 0.009064 seconds 
+  Time since last request: 14.629640 seconds.
+  path: Assets/My_Experiments/Assets/Karl
+  artifactKey: Guid(fa9ad43f502456c45930d096a503b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl using Guid(fa9ad43f502456c45930d096a503b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a59722abb89e32c7544a7333cd660ad') in 0.010457 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.263421 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray/WoodTextureArrayAlbedo.asset
-  artifactKey: Guid(2a1e45aec61cb9b41830e680aef0d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray/WoodTextureArrayAlbedo.asset using Guid(2a1e45aec61cb9b41830e680aef0d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347e5c97c567d5af3d8fe3b9be6d4e87') in 0.238770 seconds 
+  Time since last request: 1.402421 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbm
+  artifactKey: Guid(03ee726e3e2ad0347a9e540b25c2b22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbm using Guid(03ee726e3e2ad0347a9e540b25c2b22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e829b3a82d9b93ae33410b11be835d') in 0.010653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray/WoodTextureArrayNormal.asset
-  artifactKey: Guid(18abd59f757787242ac884d340d0718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray/WoodTextureArrayNormal.asset using Guid(18abd59f757787242ac884d340d0718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ce0c9346e7f90dfe5d472fc68994b') in 0.053610 seconds 
+  Time since last request: 4598.060457 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Normal.png
+  artifactKey: Guid(64a513eec167f1c49883975b7947523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Normal.png using Guid(64a513eec167f1c49883975b7947523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e71ec5823ea1b623d070195def1675e') in 0.062394 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.892980 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainSnowCoverageSample.unity
-  artifactKey: Guid(e4280accb4f92724d9366763fafbb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainSnowCoverageSample.unity using Guid(e4280accb4f92724d9366763fafbb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17b7c1a395e0aea6668d2f965d80303') in 0.010661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.144885 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/color.png
-  artifactKey: Guid(138df4511c079324cabae1f7f865c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/color.png using Guid(138df4511c079324cabae1f7f865c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cae94f881385a552f1246c60e68dd7') in 0.040982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/normal.png
-  artifactKey: Guid(77fdad851e93f394c9f8a1b1a63b56f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/normal.png using Guid(77fdad851e93f394c9f8a1b1a63b56f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac301953bc6c361cb18c40d2441bb96f') in 0.023002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_albedo.jpg
-  artifactKey: Guid(4112a019314dad94f9ffc2f8481f31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_albedo.jpg using Guid(4112a019314dad94f9ffc2f8481f31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7fd031435f1a83dbae296dcf194259') in 0.029075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.066935 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray
-  artifactKey: Guid(8eb394abf69a7984c800268f5d459d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TextureArray using Guid(8eb394abf69a7984c800268f5d459d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3717dd1d8d6934cecaaa2ac5608ea64e') in 0.013314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.987463 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/SnowAccum/SnowAccum.unity
-  artifactKey: Guid(684e34614b9f26a4a9f7b91910e8e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/SnowAccum/SnowAccum.unity using Guid(684e34614b9f26a4a9f7b91910e8e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca59d46ecd818ed8569807620cb5cf8') in 0.014783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.866167 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Smear/Smear.unity
-  artifactKey: Guid(f96700742c334e94d9b94b508433d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Smear/Smear.unity using Guid(f96700742c334e94d9b94b508433d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f010a90de7a35f553f9a134cc48d69') in 0.013019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.821434 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/SimpleTexture
-  artifactKey: Guid(a01ab39b64a03fe4c8a2a66183fec924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/SimpleTexture using Guid(a01ab39b64a03fe4c8a2a66183fec924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a80e59177dc88198365bad9753f6d5') in 0.009604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.519067 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/SimpleRefraction/SimpleRefraction.unity
-  artifactKey: Guid(cb1d66a87ad82a54aa9630fa863c9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/SimpleRefraction/SimpleRefraction.unity using Guid(cb1d66a87ad82a54aa9630fa863c9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0bdb0cd504ae4b6c763273d8849950') in 0.012292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.037985 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/SimpleBlur/SimpleBlur.unity
-  artifactKey: Guid(8e8503f06bcb06b4c9ff484ebe74d11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/SimpleBlur/SimpleBlur.unity using Guid(8e8503f06bcb06b4c9ff484ebe74d11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e55e0e88903e10f052d325ddf309f6') in 0.010362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.254720 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Outline/Outline.unity
-  artifactKey: Guid(e9a315bfa45d14a4d931d129a3292ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Outline/Outline.unity using Guid(e9a315bfa45d14a4d931d129a3292ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eb1a27a94cd118e44fb4eb41bdc0b4') in 0.011972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.179852 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberDiffuse.tif
-  artifactKey: Guid(ff9da6b9c3ae4e8439ce851c4452c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberDiffuse.tif using Guid(ff9da6b9c3ae4e8439ce851c4452c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c03d6bd1f684da970e4c3c857dbec58') in 0.022193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.391307 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Burn/Burn.unity
-  artifactKey: Guid(7289d8997bd5b6943a6115f18da5ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Burn/Burn.unity using Guid(7289d8997bd5b6943a6115f18da5ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87183665c79bec376000071d0e723f2') in 0.013166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.166302 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TempNoise.tga
-  artifactKey: Guid(e24b2c680edaa90458d31f11544d79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TempNoise.tga using Guid(e24b2c680edaa90458d31f11544d79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdc7601015da649d98e7fd59bce2649') in 0.022202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Burnt_normals.tga
-  artifactKey: Guid(e9742c575b8f4644fb9379e7347ff62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Burnt_normals.tga using Guid(e9742c575b8f4644fb9379e7347ff62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d70390b24848f10c14096fb6d4165a1') in 0.021552 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004347 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ImtiazAli_Projects\GitHub_Projects\Amplify-Shadder-Tool\Amplify-Shader-Tool\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1531ms)
-		BeginReloadAssembly (175ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1259ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (132ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.9 MB.
-System memory in use after: 154.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2758.
-Total: 4.239900 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.197700 ms MarkObjects: 3.589400 ms  DeleteObjects: 0.029300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 4.845990 seconds.
+  path: Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Diffuse.png
+  artifactKey: Guid(d26d12e3f7bab1f4c9920eb4de6e5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My_Experiments/Assets/Karl_Character.fbm/Ch09_1001_Diffuse.png using Guid(d26d12e3f7bab1f4c9920eb4de6e5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f6cca76c46982f6bec010c6196469a') in 0.039600 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

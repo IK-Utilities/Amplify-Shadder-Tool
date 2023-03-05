@@ -40,7 +40,7 @@ Material:
     - _XRayIntensity: 0.69
     - _XRayPower: 1.24
     - _XRayScale: 1.5
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _XRayColor: {r: 0, g: 0.29699996, b: 1, a: 1}
   m_BuildTextureStacks: []
